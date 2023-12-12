@@ -1,0 +1,96 @@
+header {
+  color: white;
+  text-align: center;
+  text-decoration: underline;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.title {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.grid {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  gap: 10px;
+}
+
+li {
+  padding: 10px;
+}
+
+.color {
+  border: 2px solid black;
+}
+
+.blue {
+  background-color: blue;
+  color: white;
+}
+
+.pink {
+  background-color: pink;
+}
+
+.red {
+  background-color: red;
+  margin-right: 30px;
+}
+
+.green {
+  background-color: green;
+}
+
+.text-style {
+  margin-top: 10px;
+  border: 2px solid black;
+}
+
+.text-style li {
+ padding: 5px;
+}
+.text-style h1, h2, p {
+  margin-left: 5px;
+}
+
+.font {
+  border: 2px solid black;
+  margin-top: 10px;
+}
+
+.whisper {
+  font-family: whisper;
+  font-size: xx-large;
+}
+
+.montserrat {
+  font-family: Montserrat;
+  font-size: x-large;
+}
+
+.montserrat-italic {
+  font-family: Montserrat, sans-serif;
+  font-size: x-large;
+}
+
+.silkscreen {
+  font-family: silkscreen;
+  font-size: large;
+}
+
+.bold-silkscreen {
+  font-family: silkscreen;
+  font-size: large;
+}
+
+footer {
+  text-align: center;
+  text-decoration: underline;
+}
+
+h3 {
+  font-family: 'Times New Roman', Times, serif;
+  margin-left: 5px;
+}
