@@ -1,0 +1,64 @@
+<!DOCtype html>
+<html>
+  <head>
+    <title>My Website Syle Guide</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;1,100&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Whisper&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;1,100&family=Silkscreen:wght@400;700&family=Whisper&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <header><h1>My Website Style Guide</h1></header>
+  <body>
+    <div class="color">
+      <h2 class="title">Colors</h2>
+      <p>These are few of many colors offered. Some more complex than others.</p>
+        <ul class="grid">
+          <li class="blue">Blue / #0000FF</li>
+          <li class="pink">Pink / #FFC0CB</li>
+          <li class="red">Red / #FF0000</li>
+          <li class="green">Green / #008000</li>
+       </ul>
+    </div>
+    <div class="text-style">
+      <h2 class="title">Text Styles</h2>
+      <p>Every website can have various sizes of font and style.</p>
+        <h1>H1: Main page Heading</h1>
+        <ul>
+          <li>Font-Weight 700(bold)</li>
+          <li>Font-size: 26px</li>
+          <li>Font-Family: Nunito Sans</li>
+        </ul>
+        <h2>H2: Subheading</h2>
+        <ul>
+          <li>Font Weight 500</li>
+          <li>Font-size 18px</li>
+          <li>Font-Family Poppins</li>
+        </ul>
+        <p>P: Paragraph Text</p>
+        <ul>
+          <li>Font-Weight 400 (regular)</li>
+          <li>Font-size 14px</li>
+          <li>Font-Family Poppins</li>
+        </ul>            
+    </div>
+    <div class="font">
+      <h2 class="title">Fonts</h2>
+      <p>We can also use many different styles of fonts. These are just a few of many available.</p>
+      <h3>Whisper</h3>
+      <p class="whisper">This is an example of the Whisper font.</p>
+      <h3>Montserrat</h3>
+      <p class="montserrat">This is an example of the thin Montserrat font.</p>
+      <p class="montserrat-italic"><em>This is an example of the thin italic  Montserrat font.</em></p>
+      <h3>Silkscreen</h3>
+      <p class="silkscreen">This is an example of regular Silkscreen font.</p>
+      <p class="bold-silkscreen"><strong>This is an example of bold Silkscreen font.</strong></p>
+    </div>
+  </body>
+  <footer>
+    <p>Made by Pedro Camacho. Dec. 12, 2023</p>
+  </footer>
+</html> 
